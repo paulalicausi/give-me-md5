@@ -1,0 +1,70 @@
+.check_md5_main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.check_md5_form {
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: auto;
+  margin: 0 10%;
+  background: rgb(90,148,218);
+  background: linear-gradient(45deg, rgba(255,255,255,1) 10%, rgba(90,148,218,0.3) 100%);
+}
+
+.check_md5_form textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+.check_md5_form button {
+  width: 100%;
+  background: rgba(90,148,218,1);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  transition: all .5s;
+}
+
+.check_md5_form button:hover {
+  transform: scale(1.03);
+  transition: all .5s;
+}
+
+.check_md5_form label {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 20px;
+  display: block;
+  color: #111;
+}
+
+.check_md5_form .fa-hand-sparkles {
+  font-size: 25px;
+  color: rgba(90,148,218,1);
+}
+
+.check_md5_form .ok {
+  color: green;
+  font-size: 17px;
+}
+
+.check_md5_form .no {
+  color: red;
+  font-size: 17px;
+}
